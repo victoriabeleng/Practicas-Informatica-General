@@ -1,0 +1,93 @@
+/* RESET BÁSICO */
+body {
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    font-family: 'Courier New', monospace;
+    margin: 20px;
+}
+
+/* TITULO PRINCIPAL */
+h1 {
+    color: #ff003c;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0 0 10px #ff003c, 0 0 20px #ff003c;
+    margin-bottom: 30px;
+}
+
+/* SUBTITULOS */
+h2 {
+    color: #00e5ff;
+    border-left: 5px solid #ff003c;
+    padding-left: 10px;
+    text-shadow: 0 0 5px #00e5ff;
+}
+
+/* TITULOS DE TEMPORADAS */
+.titulo {
+    color: #ff7b00;
+    text-shadow: 0 0 8px #ff7b00;
+}
+
+/* PERSONAJES */
+.personaje {
+    color: #00ff9f;
+    text-shadow: 0 0 6px #00ff9f;
+}
+
+/* PÁRRAFOS */
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* LINKS */
+a {
+    color: #ff003c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px #ff003c;
+}
+
+/* IMÁGENES */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #ff003c;
+    box-shadow: 0 0 15px #ff003c;
+    max-width: 100%;
+}
+
+/* LISTAS */
+ul {
+    background-color: #111;
+    padding: 15px;
+    border-left: 4px solid #00e5ff;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* IDs REUTILIZADOS */
+#violet {
+    background: black;
+    padding: 10px;
+    border: 2px solid #ff003c;
+}
+
+#fondo {
+    background-color: #111;
+    padding: 10px;
+    border-left: 4px solid #00e5ff;
+}
+
+/*Declaración uso de IA 
+La inteligencia artificial decidió antes qué estilo y vibra quería darle
+a la página, por esto eligió los colores con detalle para lograr esta estética.
+También centró las imágenes de manera que el sitio se ve mas pro, y les agregó bordes y cosas extras
+que le dan mas color a la página.*/

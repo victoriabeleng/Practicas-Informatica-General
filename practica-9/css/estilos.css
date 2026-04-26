@@ -1,0 +1,27 @@
+/*dos estilos definidos con selectores de etiqueta*/
+p {
+    color:brown
+}
+
+body {
+    background-color:beige
+}
+
+/*dos estilos definidos con selector de identificador*/
+#violet {
+    color:beige;
+    background-color:brown;
+}
+
+#fondo {
+    color:rgb(32, 27, 106);
+}
+
+/*dos estilos definidos con selector de clase*/
+.titulo {
+    color:rgb(114, 41, 41);
+}
+
+.personaje {
+    color:rgb(2, 72, 2);
+}
