@@ -1,0 +1,94 @@
+/*FONDO DE PANTALLA DE TODAS LAS PAGINAS*/
+
+body {
+    background-image: url("../img/fondohp.avif");
+    background-size: cover;  /*ocupa toda la pantalla*/
+    background-repeat: no-repeat;  /*no se repite*/
+    background-position: center;   /*centra la imagen*/
+    background-attachment: fixed;  /*al hacer scroll queda fija la imagen*/
+}
+
+/*HEADER*/
+
+h1 {
+    font-family: 'Cinzel', serif;
+    color:rgba(115, 11, 11, 0.92);
+    text-align: center;
+    text-shadow: 3px 3px 3px rgb(164, 130, 19)
+}
+
+.menu {
+    font-family: 'Cinzel', sans-serif;
+    font-size: 20px;
+    color: rgb(164, 130, 19);
+    background-color: rgba(115, 11, 11, 0.491);
+    text-shadow: 3px 3px 3px rgba(115, 11, 11, 0.92);
+    text-align: right;
+}
+
+nav {
+    font-family: 'Cinzel', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color:rgba(115, 11, 11, 0.92);
+    background-color: rgba(164, 130, 19, 0.47);
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+}
+
+/*MAIN*/
+h2 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color: rgb(80, 8, 8);
+    text-shadow: 3px 3px 3px rgb(164, 130, 19);
+}
+
+main {
+    text-align: center;
+}
+
+main p {
+    color: rgb(248, 236, 236);
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px 3px rgba(115, 11, 11);
+}
+
+.fotos {
+    display: block;
+    margin: auto;
+    border: 4px solid rgba(255, 217, 0, 0.361);
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color: rgb(80, 8, 8);
+    text-shadow: 2px 2px 2px rgb(164, 130, 19);
+}
+
+main ul {
+    padding: 0;
+    list-style-position: inside;
+    color: rgb(80, 8, 8);
+    text-shadow: 3px 3px 3px rgba(80, 8, 8, 0.689);
+}
+
+main ol {
+    padding: 0;
+    list-style-position: inside;
+    color: rgb(80, 8, 8);
+    text-shadow: 3px 3px 3px rgba(80, 8, 8, 0.696);
+}
+
+/*FOOTER*/
+footer {
+    font-family: 'Cinzel', serif;
+    color:rgba(255, 217, 0, 0.361);
+    background-color: rgba(115, 11, 11, 0.491);
+    text-align: center;
+    text-shadow: rgb(164, 130, 19);
+}
