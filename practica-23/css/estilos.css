@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(239, 142, 63);
+}
+
+.tituloh1 {
+    color:rgb(225, 35, 140);
+    text-align: center;
+    font-family: 'NewsReader';
+}
+
+form {
+    text-align: center;
+}

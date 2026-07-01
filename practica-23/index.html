@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Practica 23</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Habibi&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Unbounded:wght@200..900&display=swap" 
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <h1 class="tituloh1">Contando pupitres</h1>
+
+    <form>
+        <label for="aula001">Aula 001</label>
+        <input type="number" id="aula001" placeholder="Ingrese la cantidad de pupitres">
+    
+        <br>
+
+        <label for="aula101">Aula 101</label>
+        <input type="number" id="aula101" placeholder="Ingrese la cantidad de pupitres">
+
+        <br>
+
+        <label for="aula201">Aula 201</label>
+        <input type="number" id="aula201" placeholder="Ingrese la cantidad de pupitres">
+
+        <br>
+
+        <label for="aula301">Aula 301</label>
+        <input type="number" id="aula301" placeholder="Ingrese la cantidad de pupitres">
+
+        <br>
+
+        <label for="aula501">Aula 501</label>
+        <input type="number" id="aula501" placeholder="Ingrese la cantidad de pupitres">
+
+
+        <p>Aula con menos pupitres: <span id="menor"></span></p>
+
+        <p>Aula con más pupitres: <span id="mayor"></span></p>
+
+        <p>Cantidad de pupitres a comprar para que cada aula tenga 80: <span id="faltantes"></span></p>
+
+        <button type="button" onclick="calcular()">Calcular</button>
+    </form>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

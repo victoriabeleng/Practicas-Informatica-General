@@ -1,0 +1,13 @@
+.titulo {
+    color:olivedrab;
+    background-color: orchid;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+p strong {
+    color:olivedrab;
+}

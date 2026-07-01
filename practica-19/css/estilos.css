@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(119, 221, 71);
+}
+
+.tituloh1 {
+    color:rgb(215, 89, 129);
+    text-align: center;
+    font-family: 'Unbounded';
+}
+
+.tituloh2{
+    color: rgb(35, 78, 14);
+    text-align: center;
+    font-family: 'NewsReader';
+}
+
+p {
+    text-align: center;
+    color: rgb(147, 40, 93);
+}
+
+ul {
+    list-style-type: none;
+    color: rgb(147, 40, 93);
+    text-align: center;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 1rem;
+
+}

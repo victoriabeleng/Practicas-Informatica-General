@@ -1,0 +1,13 @@
+.titulo {
+    color:beige;
+    background-color: palevioletred;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+p strong {
+    color:palevioletred
+}
