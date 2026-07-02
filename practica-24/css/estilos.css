@@ -1,0 +1,13 @@
+body {
+    background-color: darkslategray;
+    text-align: center;
+}
+
+.titulo {
+    color: deeppink;
+}
+
+button {
+    font-weight: bold;
+    background-color: deeppink;
+}
