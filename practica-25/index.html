@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Práctica 25</title>
+
+        <link href="css/estilos.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <h1>Práctica 25 - Completar formulario</h1>
+
+            <section>
+                <h2>Por favor, complete el siguiente formulario</h2>
+                <form action="#" method="get">
+
+                    <fieldset>
+
+                        <legend>Datos del usuario</legend>
+
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+
+                        <br>
+
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido" id="apellido">
+
+                        <br>
+
+                        <label for="edad">Edad</label>
+                        <input type="number" name="edad" id="edad">  
+
+                    </fieldset>
+
+                    <fieldset>
+
+                        <legend>Preferencias</legend>
+
+                        <label for="genero">Género de serie preferido</label>
+
+                        <select id="genero">
+                            <option>Romance</option>
+                            <option>Terror</option>
+                            <option>Comedia</option>
+                            <option>Fantasia</option>
+                        </select>
+
+                    </fieldset>
+                    
+                    <br>
+
+                    <button type="button" onclick="recomendar()">  <!--Solo pongo button y no submit porque sino recarga la pagina-->
+                        Enviar y ver recomendación
+                    </button>
+
+                </form>
+
+                <p class="serie">
+                    Te recomendamos:
+                </p>
+
+                <p class="saludo">
+                    Gracias y adiós desconocido!
+                </p>
+
+            </section>
+
+        </main>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>

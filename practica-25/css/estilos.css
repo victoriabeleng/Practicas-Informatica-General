@@ -1,0 +1,31 @@
+body {
+    background-color:aquamarine;
+    text-align: center;
+    
+}
+
+form {
+    justify-content: center;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    gap: 10px
+}
+
+input {
+  margin-bottom: 15px; /* Separa el campo actual del que está abajo */
+}
+
+fieldset {
+    gap: 15px;
+    background-color: coral;
+    margin-top: 15px;
+}
+
+h1, h2 {
+    color:coral
+}
+
+p {
+    font-weight: bold;
+    color:rgb(101, 22, 72)
+}
